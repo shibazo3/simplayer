@@ -1,6 +1,5 @@
 <?php
   class Song {
-
     private $con;
     private $id;
     private $mysqliData;
@@ -56,6 +55,5 @@
     public function getGenre() {
       return $this->genre;
     }
-
   }
 ?>

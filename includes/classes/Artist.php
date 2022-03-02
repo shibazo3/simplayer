@@ -1,6 +1,5 @@
 <?php
   class Artist {
-
     private $con;
     private $id;
 
@@ -27,8 +26,7 @@
       while($row = mysqli_fetch_array($query)) {
         array_push($array, $row['id']);
       }
-
       return $array;
     }
   }
-?>  
+?>
